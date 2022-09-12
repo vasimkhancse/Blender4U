@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uservideo">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:id="@+id/r"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:background="@drawable/layoutcolor"
+            android:id="@+id/t"
+            app:titleTextColor="#000"
+            app:navigationIcon="@drawable/ic_back"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/EmailShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/view"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="     "
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:visibility="invisible" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/re"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/t" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

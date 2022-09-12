@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ba7a7"
+    tools:context=".publicFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/imageView7"
+        android:layout_marginTop="35dp"
+        android:background="#2ba7a7" />
+
+    <ImageView
+
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:src="@drawable/ic_filter2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rt"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-35dp"
+        android:layout_marginStart="129dp"
+        android:textColor="@color/mini_fab_drawable_tint"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

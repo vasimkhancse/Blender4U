@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainRnewsfeedActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="153dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/blender" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="195dp"
+            android:text="No INTERNET TURN ON INTERNET"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:visibility="visible">
+
+
+
+        <android.support.v7.widget.Toolbar
+
+            app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+            android:background="@drawable/layoutcolor"
+            android:id="@+id/t"
+            app:titleTextColor="#000"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+               android:hint="Search"
+            android:textColor="#000"
+            android:textColorHint="#0a0a0a" >
+
+
+        </com.miguelcatalan.materialsearchview.MaterialSearchView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="71dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wwe"
+            app:civ_border_color="#000"
+            app:civ_border_width="2dp" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/s"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rt"
+            android:layout_marginTop="9dp"
+            android:visibility="visible">
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/re"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="141dp"
+                android:visibility="visible" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <FrameLayout
+
+            android:id="@+id/rre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="139dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/EmailShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="     "
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="Logout" />
+
+
+        <io.github.yavski.fabspeeddial.FabSpeedDial
+            android:id="@+id/fabmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="80dp"
+            app:fabGravity="bottom_end"
+            app:fabMenu="@menu/fabmenu"
+            app:fabDrawableTint="#000"
+
+            app:miniFabBackgroundTintList="@array/fabcolors"
+            app:miniFabTitleTextColorList="@array/fabcolors2" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/c"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginStart="85dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Hi"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+
+            android:id="@+id/u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+
+
+            android:text="More Followers...."
+            android:textAlignment="textEnd"
+            android:textColor="#0640fc"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/rt"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/u"
+            android:background="#6c6c6c"
+            android:visibility="visible" />
+        <RelativeLayout
+            android:id="@+id/trr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rt">
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/r"
+        android:visibility="visible"
+
+        >
+
+        <include layout="@layout/bottomnavigation" />
+    </RelativeLayout>
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/i"
+        android:layout_width="140dp"
+        android:layout_height="101dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp" />
+    <ProgressBar
+        android:id="@+id/progressBar7"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl2"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/ss"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="158dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

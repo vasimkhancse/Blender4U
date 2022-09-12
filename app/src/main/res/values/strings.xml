@@ -1,0 +1,480 @@
+<resources>
+    <string name="app_name">Blender4u</string>
+    <string name="email">email</string>
+    <string name="no"></string>
+    <string name="title_activity_edit">EditActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_commentreply">commentreply</string>
+    <string name="title_activity_linkpost">linkpostActivity</string>
+    <integer-array name="fabcolors">
+        <!-- A dark Holo shade of red -->
+        <item>@android:color/holo_blue_bright</item>
+        <!-- A Holo shade of purple -->
+        <item>@android:color/holo_purple</item>
+        <!-- A light Holo shade of green -->
+        <item>@android:color/holo_green_light</item>
+    </integer-array>
+    <integer-array name="fabcolors2">
+        <!-- A dark Holo shade of red -->
+        <item>@android:color/black</item>
+        <!-- A Holo shade of purple -->
+        <item>@android:color/holo_purple</item>
+        <!-- A light Holo shade of green -->
+        <item>@android:color/holo_green_light</item>
+    </integer-array>
+
+    <string-array name="heading">
+        <item>Basic Navigation</item>
+        <item>Common</item>
+        <item>While Moving</item>
+        <item>In Object Mode</item>
+        <item>Selection</item>
+        <item>Changing View</item>
+        <item>In Edit Mode</item>
+        <item>Rendering</item>
+        <item>Node Editor</item>
+        <item>Sculpting</item>
+        <item>Editing Curves</item>
+        <item>Animation</item>
+        <item>Posing Mode</item>
+        <item>Armatures</item>
+        <item>Fun to Know</item>
+        <item>Timeline</item>
+    </string-array>
+
+    <string-array name="BasicNavigation">
+        <item>Orbit</item>
+        <item>Pan</item>
+        <item>Zoom</item>
+        <item>Top view</item>
+        <item>Front view</item>
+        <item>Side view</item>
+        <item>Camera View</item>
+        <item>Go to Selected Object</item>
+        <item>Perspective/Orthographic</item>
+        <item>Zoom to Show All Objects</item>
+        <item>Fly Mode</item>
+        <item>Toolbar</item>
+        <item>Object Properties</item>
+        <item>Reset 3D Cursor</item>
+    </string-array>
+    <string-array name="BasicNavigation2">
+        <item>Middle click</item>
+        <item>Shift+ Middle click</item>
+        <item>Scroll</item>
+        <item>Numpad 7</item>
+        <item>Numpad 1</item>
+        <item>Numpad 3</item>
+        <item>Numpad 0</item>
+        <item>Numpad .</item>
+        <item>Numpad 5</item>
+        <item>Home</item>
+        <item>Shift + F</item>
+        <item>T</item>
+        <item>N</item>
+        <item>Shift + C</item>
+    </string-array>
+
+    <string-array name="common">
+        <item>Add object</item>
+        <item>Search</item>
+        <item>Move</item>
+        <item>Scale</item>
+        <item>Rotate</item>
+        <item>Trackball Rotate</item>
+        <item>Move Origin Point</item>
+        <item>Properties Bar</item>
+        <item>Toolbar</item>
+        <item>Option Menu</item>
+
+    </string-array>
+    <string-array name="common2">
+        <item>Shift + A</item>
+        <item>Space</item>
+        <item>G</item>
+        <item>S</item>
+        <item>R</item>
+        <item>R,R</item>
+        <item>Ctrl + Shift + Alt + c</item>
+        <item>P</item>
+        <item>T</item>
+        <item>W</item>
+
+    </string-array>
+    <string-array name="whileMoving">
+        <item>Precise Movement</item>
+        <item>Incremental Movement</item>
+        <item>Lock Movement to Axis</item>
+
+
+    </string-array>
+    <string-array name="whileMoving2">
+        <item>Shift[Hold]</item>
+        <item>Ctrl[Hold]</item>
+        <item>Middle Click or X/Y/Z</item>
+
+    </string-array>
+    <string-array name="inobjectmode">
+        <item>Duplicate</item>
+        <item>Duplicate Linked</item>
+        <item>Move to layer</item>
+        <item>Join/Merge Objects</item>
+        <item>Mirror Object</item>
+        <item>Hide Selected</item>
+        <item>Unhide All</item>
+        <item>Move Selected Object to Center</item>
+        <item>Snap to Cursor</item>
+        <item>Copy Attributes to New Object</item>
+        <item>Proportional Editing On/Off</item>
+        <item>Apply Scale/Rotation/Location</item>
+        <item>Add Constraint</item>
+        <item>Parent</item>
+        <item>Clear Parent</item>
+    </string-array>
+    <string-array name="inobjectmode2">
+        <item>Shift + D</item>
+        <item>Alt + D</item>
+        <item>M</item>
+        <item>Ctrl + J</item>
+        <item>Ctrl + M</item>
+        <item>H</item>
+        <item>Alt + H</item>
+        <item>Alt + G</item>
+        <item>Shift + S</item>
+        <item>Ctrl + L</item>
+        <item>O</item>
+        <item>Ctrl + A</item>
+        <item>Ctrl + Shift + C</item>
+        <item>Ctrl + P</item>
+        <item>Alt + P</item>
+    </string-array>
+
+    <string-array name="selection">
+        <item>Select</item>
+        <item>Select All/Deselect All</item>
+        <item>Box Select</item>
+        <item>Circle Select</item>
+        <item>Lasso Tool</item>
+        <item>Select Similar</item>
+        <item>Invert Selection</item>
+
+    </string-array>
+    <string-array name="selection2">
+        <item>Right Click</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>Ctrl + Click</item>
+        <item>Shift + G</item>
+        <item>Ctrl + I</item>
+
+
+    </string-array>
+    <string-array name="changingview">
+        <item>Wireframe/Solid View</item>
+        <item>Isolated View</item>
+        <item>Rendered View</item>
+        <item>Weight Paint Mode</item>
+
+
+    </string-array>
+    <string-array name="changingview2">
+        <item>Z</item>
+        <item>/</item>
+        <item>Shift + Z</item>
+        <item>Ctrl + TAB</item>
+
+    </string-array>
+
+    <string-array name="ineditmode">
+        <item>Edit/Object Mode</item>
+        <item>Extrude</item>
+        <item>Inset</item>
+        <item>Fill</item>
+        <item>Select Edge Loop</item>
+        <item>Select Ring</item>
+        <item>Create Loopcut</item>
+        <item>Edge Slide</item>
+        <item>Select All Connected</item>
+        <item>Make Seam/Sharp</item>
+        <item>Edge Crease</item>
+        <item>Unwarp UVs</item>
+        <item>Change Selection Mode</item>
+        <item>Bevel</item>
+        <item>Knife Tool</item>
+        <item>Seperate to a Object</item>
+        <item>Rip</item>
+        <item>Rip Fill</item>
+        <item>Split</item>
+        <item>Mirror</item>
+        <item>Shrink/Fatten</item>
+        <item>Proportional Falloff</item>
+        <item>Recalculate Normals</item>
+    </string-array>
+    <string-array name="ineditmode2">
+        <item>TAB</item>
+        <item>E</item>
+        <item>i</item>
+        <item>F</item>
+        <item>Alt + Click</item>
+        <item>Ctrl+Alt+Click</item>
+        <item>Ctrl + R</item>
+        <item>G,G</item>
+        <item>Ctrl + L</item>
+        <item>Ctrl + E</item>
+        <item>Shift + E</item>
+        <item>U</item>
+        <item>Ctrl + TAB</item>
+        <item>Ctrl + B</item>
+        <item>K</item>
+        <item>P</item>
+        <item>V</item>
+        <item>Alt + V</item>
+        <item>Y</item>
+        <item>Ctrl + M</item>
+        <item>Alt + S</item>
+        <item>O</item>
+        <item>trl + Shift + N</item>
+
+    </string-array>
+    <string-array name="rendering">
+        <item>Render</item>
+        <item>Show Last Render</item>
+        <item>Save Render</item>
+        <item>Change Render Slot</item>
+        <item>Only Render Portion</item>
+        <item>Reset Render Portion</item>
+        <item>Change Active Camera</item>
+
+    </string-array>
+    <string-array name="rendering2">
+        <item>F12</item>
+        <item>F11</item>
+        <item>F3</item>
+        <item>1-8</item>
+        <item>Shift + B</item>
+        <item>Ctrl + Alt + B</item>
+        <item>Ctrl + O</item>
+
+    </string-array>
+    <string-array name="nodeeditor">
+        <item>Jump to Node Editor</item>
+        <item>Connect Nodes</item>
+        <item>Cut Links</item>
+        <item>Reroute Link</item>
+        <item>Delete but keep connected</item>
+        <item>Duplicate and keep connected</item>
+        <item>Mute Selected Node</item>
+        <item>Make Group</item>
+        <item>UnGroup</item>
+        <item>Edit Selected Group</item>
+        <item>Move Background</item>
+        <item>Zoom in Background</item>
+        <item>Zoom out Background</item>
+
+    </string-array>
+    <string-array name="nodeeditor2">
+        <item>Shift + F3</item>
+        <item>F</item>
+        <item>Ctrl + Click[Drag]</item>
+        <item>Shift + Click[Drag]</item>
+        <item>Ctrl + X</item>
+        <item>Ctrl + Shift + D</item>
+        <item>M</item>
+        <item>Ctrl + G</item>
+        <item>Alt + G</item>
+        <item>TAB</item>
+        <item>Alt + Middle Mouse</item>
+        <item>V</item>
+        <item>Alt + V</item>
+
+
+    </string-array>
+    <string-array name="sculpting">
+        <item>Add/Subtract Sculpting</item>
+        <item>Smooth</item>
+        <item>Brush Size</item>
+        <item>Brush Strength</item>
+        <item>Hide Area</item>
+        <item>Unhide Selection</item>
+        <item>Unhide All</item>
+        <item>Mask Paint Mode</item>
+        <item>Subtract Mask Paint</item>
+        <item>Fill/Clear Mask</item>
+        <item>Lasso Mask</item>
+        <item>Stroke Method</item>
+
+
+    </string-array>
+    <string-array name="sculpting2">
+        <item>Ctrl[Hold]</item>
+        <item>Shift[Hold]</item>
+        <item>F</item>
+        <item>Shift +F</item>
+        <item>H</item>
+        <item>Shift + H</item>
+        <item>Alt + H</item>
+        <item>M</item>
+        <item>Ctrl + Click</item>
+        <item>Ctrl + i</item>
+        <item>Ctrl + Shift + Click</item>
+        <item>E</item>
+
+    </string-array>
+
+    <string-array name="editingcurves">
+        <item>Add new handle</item>
+        <item>Change Handle Type</item>
+        <item>Delete but keep connection</item>
+        <item>Close Path</item>
+        <item>Tilt</item>
+        <item>Clear Tilt</item>
+        <item>Convert Curve to Mesh</item>
+
+    </string-array>
+    <string-array name="editingcurves2">
+        <item>Ctrl + Click</item>
+        <item>V</item>
+        <item>Ctrl + X</item>
+        <item>Alt + C</item>
+        <item>Ctrl + T</item>
+        <item>Alt + T</item>
+        <item>Alt + C</item>
+
+    </string-array>
+    <string-array name="animation">
+        <item>Play/Stop Animation</item>
+        <item>Insert KeyFrame</item>
+        <item>Remove KeyFrame</item>
+        <item>Go to Next/Previous Frame</item>
+        <item>Go Forward/Back 10 Frames</item>
+        <item>Go to Next/Previous KeyFrame</item>
+        <item>Go to First/Last Frame</item>
+
+    </string-array>
+    <string-array name="animation2">
+        <item>Alt + A</item>
+        <item>i</item>
+        <item>Alt + i</item>
+        <item> left/right</item>
+        <item>Shift + up / down</item>
+        <item>up / down</item>
+        <item>Shift + left / right</item>
+
+    </string-array>
+    <string-array name="posingmode">
+        <item>Clear Pose Rotation</item>
+        <item>Clear Pose Location</item>
+        <item>Clear Pose Scale</item>
+        <item>Copy Pose</item>
+        <item>Paste Pose</item>
+        <item>Add IK</item>
+        <item>Add Pose to Library</item>
+        <item>Remoke IK</item>
+        <item>Add to Bone Group</item>
+        <item>Relax Pose</item>
+        <item>Breakdowner</item>
+        <item>Rotate on Bone's Center</item>
+        <item>Select Grouped</item>
+        <item>Paste X-Fliped</item>
+    </string-array>
+    <string-array name="posingmode2">
+        <item>Alt + R</item>
+        <item>Alt + G</item>
+        <item>Alt + S</item>
+        <item>Ctrl + C</item>
+        <item>Ctrl + V</item>
+        <item>Shift + I</item>
+        <item>Shift + L</item>
+        <item>Ctrl + Alt + i</item>
+        <item>Ctrl + G</item>
+        <item>Alt + E</item>
+        <item>Shift + E</item>
+        <item>R,R</item>
+        <item>Shift + G</item>
+        <item>Ctrl + Shift + V</item>
+
+
+    </string-array>
+
+    <string-array name="armatures">
+        <item>Add New Bone</item>
+        <item>Extrude Bone</item>
+        <item>Roll</item>
+        <item>Recalculate Roll</item>
+        <item>Align Bones</item>
+        <item>Move to Bones Layer</item>
+        <item>Set Bone Flagn</item>
+        <item>Switch Bone Direction</item>
+        <item>Scroll Hierarchy</item>
+
+    </string-array>
+    <string-array name="armatures2">
+        <item>Shift + A</item>
+        <item>E</item>
+        <item>Ctrl + R</item>
+        <item>Ctrl + N</item>
+        <item>Ctrl + Alt + A</item>
+        <item>M</item>
+        <item>Shift + W</item>
+        <item>Alt + F</item>
+        <item>]/[</item>
+
+    </string-array>
+    <string-array name="funtoknow">
+        <item>Repeat Last Action</item>
+        <item>Play Animation in Reverse</item>
+        <item>Maximize SubWindow</item>
+        <item>Fly Mode</item>
+        <item>Quad Mode</item>
+        <item>Scroll value</item>
+        <item>Scroll Dropdown values</item>
+        <item>Grease Pencil</item>
+        <item>Erase Pencil</item>
+        <item>Copy change across objects</item>
+        <item>select behind object</item>
+        <item>Add Subdivision Level</item>
+
+    </string-array>
+    <string-array name="funtoknow2">
+        <item>Shift + R</item>
+        <item>Shift + Alt + A</item>
+        <item>Shift + Space</item>
+        <item>Shift + F</item>
+        <item>Ctrl + Alt + Q</item>
+        <item>Ctrl + Scroll</item>
+        <item>Ctrl + Scroll</item>
+        <item>D + Click</item>
+        <item>D + Right Click</item>
+        <item>Alt while clicking</item>
+        <item>Alt + Click</item>
+        <item>Ctrl + 0/1/2/3/4/5</item>
+
+    </string-array>
+    <string-array name="timeline">
+        <item>Scroll through frames</item>
+        <item>Set Start Frame</item>
+        <item>Set End Frame</item>
+        <item>Zoom to show all frames</item>
+        <item>Zoom to Frame</item>
+        <item>Add Marker</item>
+        <item>Move Marker</item>
+        <item>Set Preview Range</item>
+        <item>Clear Preview Range</item>
+
+    </string-array>
+    <string-array name="timeline2">
+        <item>Alt + Scroll</item>
+        <item>S</item>
+        <item>E</item>
+        <item>Home</item>
+        <item>Numpad o</item>
+        <item>M</item>
+        <item>Right Click Drag</item>
+        <item>P</item>
+        <item>Alt + P</item>
+
+    </string-array>
+</resources>

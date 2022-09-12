@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khanbros.blender4umodel">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|keyboard"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/blender"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register_Activity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".MainRnewsfeedActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".learnActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".profileActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".QuestionActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".showcaseActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".EditActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".viewquestion"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".commentActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".postActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".urlpostActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="Blender4U"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".linkpostActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:label="@string/title_activity_linkpost"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".viewpost"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".postcommentActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".userphoto"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".uservideo"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".friendprofileActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity
+            android:name=".viewtutorialActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <receiver android:name=".notification" />
+
+        <activity android:name=".keyActivity" />
+        <activity
+            android:name=".webActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+        <activity android:name=".followersActivity" />
+        <activity android:name=".mediaActivity" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".updateActivity" />
+        <activity android:name=".tutorialActivity"></activity>
+    </application>
+
+</manifest>

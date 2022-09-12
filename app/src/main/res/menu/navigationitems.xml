@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icquestion"
+        android:icon="@drawable/ic_question"
+        android:title="question"
+        >
+    </item>
+    <item
+        android:id="@+id/iclearn"
+        android:icon="@drawable/ic_learn"
+        android:title="learn"
+        >
+    </item>
+    <item
+        android:id="@+id/icnews"
+        android:icon="@drawable/ic_newsfeed"
+        android:title="news feed"
+        >
+    </item>
+    <item
+        android:id="@+id/icshowcase"
+        android:icon="@drawable/ic_showcase"
+        android:title="showcase"
+        >
+    </item>
+    <item
+        android:id="@+id/icprofile"
+        android:icon="@drawable/ic_profile"
+        android:title="profile"
+        >
+    </item>
+</menu>

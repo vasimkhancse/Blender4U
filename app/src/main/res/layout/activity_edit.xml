@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <android.support.v7.widget.Toolbar
+
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:background="@drawable/layoutcolor"
+        android:id="@+id/t"
+        app:titleTextColor="#000"
+        app:navigationIcon="@drawable/ic_back"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </android.support.v7.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="101dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blender"
+        app:civ_border_color="#000"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="247dp"
+        android:ems="10"
+        android:hint="Skill"
+        android:textColorHint="#000"
+
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="173dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="content"
+        android:textColorHint="#000"
+        android:textColor="@android:color/black"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="107dp"
+        android:ems="50"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000"
+        android:textColor="@android:color/black"
+
+        android:hint="Description" />
+
+    <TextView
+        android:id="@+id/tedit"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="228dp"
+
+        android:text="Edit"
+        android:textColor="@android:color/black"
+        android:textColorHint="#000"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/emailtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-109dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@+id/tedit"
+        android:text="TextView"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
